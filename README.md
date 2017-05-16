@@ -1,5 +1,6 @@
 # Eviratec Entity SDK (JavaScript)
 
+[![Build Status](https://travis-ci.org/eviratec/entity-sdk-js.svg?branch=master)](https://travis-ci.org/eviratec/entity-sdk-js)
 [![Dependency Status](https://david-dm.org/eviratec/entity-sdk-js/status.svg)](https://david-dm.org/eviratec/entity-sdk-js)
 [![devDependency Status](https://david-dm.org/eviratec/entity-sdk-js/dev-status.svg)](https://david-dm.org/eviratec/entity-sdk-js#info=devDependencies)
 
