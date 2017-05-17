@@ -50,7 +50,7 @@ Then include *bundle.js* in the HTML pages.
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var api = new EviratecEntityApi.EntityApi()
 

@@ -19,7 +19,7 @@ Deletes an existing EntityAttribute
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityAttributeApi();
 
@@ -74,7 +74,7 @@ Retrieves an existing EntityAttribute
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityAttributeApi();
 
@@ -129,7 +129,7 @@ No authorization required
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityAttributeApi();
 

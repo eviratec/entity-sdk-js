@@ -19,7 +19,7 @@ Creates a new TypeAttribute
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.TypeAttributeApi();
 
@@ -71,7 +71,7 @@ Retrieves an existing TypeAttribute
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.TypeAttributeApi();
 
@@ -123,7 +123,7 @@ No authorization required
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.TypeAttributeApi();
 

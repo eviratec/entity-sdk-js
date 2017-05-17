@@ -20,7 +20,7 @@ Creates a new Entity
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityApi();
 
@@ -72,7 +72,7 @@ Deletes an existing Entity
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityApi();
 
@@ -124,7 +124,7 @@ Retrieves an existing Entity
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityApi();
 
@@ -176,7 +176,7 @@ Retrieves a list of Entities
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityApi();
 

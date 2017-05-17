@@ -19,7 +19,7 @@ Creates a new EntityType
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityTypeApi();
 
@@ -68,7 +68,7 @@ Retrieves an existing EntityType
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityTypeApi();
 
@@ -117,7 +117,7 @@ Retrieves a list of Types
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('eviratec_entity_api');
+var EviratecEntityApi = require('entity-sdk');
 
 var apiInstance = new EviratecEntityApi.EntityTypeApi();
 
