@@ -20,15 +20,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.EviratecEntityApi);
+    factory(root.expect, root.EviratecEntity);
   }
-}(this, function(expect, EviratecEntityApi) {
+}(this, function(expect, EviratecEntity) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new EviratecEntityApi.UUserIDTClassNameEntityListAttributes();
+    instance = new EviratecEntity.UUserIDTClassNameEntityListAttributes();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,43 +50,43 @@
   describe('UUserIDTClassNameEntityListAttributes', function() {
     it('should create an instance of UUserIDTClassNameEntityListAttributes', function() {
       // uncomment below and update the code to test UUserIDTClassNameEntityListAttributes
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntityListAttributes();
-      //expect(instance).to.be.a(EviratecEntityApi.UUserIDTClassNameEntityListAttributes);
+      //var instane = new EviratecEntity.UUserIDTClassNameEntityListAttributes();
+      //expect(instance).to.be.a(EviratecEntity.UUserIDTClassNameEntityListAttributes);
     });
 
     it('should have the property entityID (base name: "EntityID")', function() {
       // uncomment below and update the code to test the property entityID
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntityListAttributes();
+      //var instane = new EviratecEntity.UUserIDTClassNameEntityListAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property attributeKey (base name: "AttributeKey")', function() {
       // uncomment below and update the code to test the property attributeKey
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntityListAttributes();
+      //var instane = new EviratecEntity.UUserIDTClassNameEntityListAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property attributeValue (base name: "AttributeValue")', function() {
       // uncomment below and update the code to test the property attributeValue
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntityListAttributes();
+      //var instane = new EviratecEntity.UUserIDTClassNameEntityListAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property created (base name: "Created")', function() {
       // uncomment below and update the code to test the property created
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntityListAttributes();
+      //var instane = new EviratecEntity.UUserIDTClassNameEntityListAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property modified (base name: "Modified")', function() {
       // uncomment below and update the code to test the property modified
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntityListAttributes();
+      //var instane = new EviratecEntity.UUserIDTClassNameEntityListAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property deleted (base name: "Deleted")', function() {
       // uncomment below and update the code to test the property deleted
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntityListAttributes();
+      //var instane = new EviratecEntity.UUserIDTClassNameEntityListAttributes();
       //expect(instance).to.be();
     });
 

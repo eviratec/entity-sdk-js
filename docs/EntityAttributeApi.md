@@ -1,4 +1,4 @@
-# EviratecEntityApi.EntityAttributeApi
+# EviratecEntity.EntityAttributeApi
 
 All URIs are relative to *https://entity-api.preview.eviratec.software*
 
@@ -19,9 +19,9 @@ Deletes an existing EntityAttribute
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityAttributeApi();
+var apiInstance = new EviratecEntity.EntityAttributeApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -74,9 +74,9 @@ Retrieves an existing EntityAttribute
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityAttributeApi();
+var apiInstance = new EviratecEntity.EntityAttributeApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -129,9 +129,9 @@ No authorization required
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityAttributeApi();
+var apiInstance = new EviratecEntity.EntityAttributeApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 

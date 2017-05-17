@@ -20,10 +20,10 @@
     module.exports = factory(require('../ApiClient'), require('./UUserIDTClassNameEntityListAttributes'));
   } else {
     // Browser globals (root is window)
-    if (!root.EviratecEntityApi) {
-      root.EviratecEntityApi = {};
+    if (!root.EviratecEntity) {
+      root.EviratecEntity = {};
     }
-    root.EviratecEntityApi.InlineResponse2001 = factory(root.EviratecEntityApi.ApiClient, root.EviratecEntityApi.UUserIDTClassNameEntityListAttributes);
+    root.EviratecEntity.InlineResponse2001 = factory(root.EviratecEntity.ApiClient, root.EviratecEntity.UUserIDTClassNameEntityListAttributes);
   }
 }(this, function(ApiClient, UUserIDTClassNameEntityListAttributes) {
   'use strict';

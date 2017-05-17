@@ -20,15 +20,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.EviratecEntityApi);
+    factory(root.expect, root.EviratecEntity);
   }
-}(this, function(expect, EviratecEntityApi) {
+}(this, function(expect, EviratecEntity) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new EviratecEntityApi.UUserIDTClassNameEntitiesAttributes();
+    instance = new EviratecEntity.UUserIDTClassNameEntitiesAttributes();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('UUserIDTClassNameEntitiesAttributes', function() {
     it('should create an instance of UUserIDTClassNameEntitiesAttributes', function() {
       // uncomment below and update the code to test UUserIDTClassNameEntitiesAttributes
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntitiesAttributes();
-      //expect(instance).to.be.a(EviratecEntityApi.UUserIDTClassNameEntitiesAttributes);
+      //var instane = new EviratecEntity.UUserIDTClassNameEntitiesAttributes();
+      //expect(instance).to.be.a(EviratecEntity.UUserIDTClassNameEntitiesAttributes);
     });
 
     it('should have the property attributeKey (base name: "AttributeKey")', function() {
       // uncomment below and update the code to test the property attributeKey
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntitiesAttributes();
+      //var instane = new EviratecEntity.UUserIDTClassNameEntitiesAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property attributeValue (base name: "AttributeValue")', function() {
       // uncomment below and update the code to test the property attributeValue
-      //var instane = new EviratecEntityApi.UUserIDTClassNameEntitiesAttributes();
+      //var instane = new EviratecEntity.UUserIDTClassNameEntitiesAttributes();
       //expect(instance).to.be();
     });
 

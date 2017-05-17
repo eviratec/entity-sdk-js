@@ -20,10 +20,10 @@
     module.exports = factory(require('superagent'));
   } else {
     // Browser globals (root is window)
-    if (!root.EviratecEntityApi) {
-      root.EviratecEntityApi = {};
+    if (!root.EviratecEntity) {
+      root.EviratecEntity = {};
     }
-    root.EviratecEntityApi.ApiClient = factory(root.superagent);
+    root.EviratecEntity.ApiClient = factory(root.superagent);
   }
 }(this, function(superagent) {
   'use strict';

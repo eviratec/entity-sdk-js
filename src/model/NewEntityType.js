@@ -20,10 +20,10 @@
     module.exports = factory(require('../ApiClient'), require('./UUserIDTypesAttributes'));
   } else {
     // Browser globals (root is window)
-    if (!root.EviratecEntityApi) {
-      root.EviratecEntityApi = {};
+    if (!root.EviratecEntity) {
+      root.EviratecEntity = {};
     }
-    root.EviratecEntityApi.NewEntityType = factory(root.EviratecEntityApi.ApiClient, root.EviratecEntityApi.UUserIDTypesAttributes);
+    root.EviratecEntity.NewEntityType = factory(root.EviratecEntity.ApiClient, root.EviratecEntity.UUserIDTypesAttributes);
   }
 }(this, function(ApiClient, UUserIDTypesAttributes) {
   'use strict';

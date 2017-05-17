@@ -20,10 +20,10 @@
     module.exports = factory(require('../ApiClient'), require('../model/InlineResponse2001'), require('../model/Model2'));
   } else {
     // Browser globals (root is window)
-    if (!root.EviratecEntityApi) {
-      root.EviratecEntityApi = {};
+    if (!root.EviratecEntity) {
+      root.EviratecEntity = {};
     }
-    root.EviratecEntityApi.EntityApi = factory(root.EviratecEntityApi.ApiClient, root.EviratecEntityApi.InlineResponse2001, root.EviratecEntityApi.Model2);
+    root.EviratecEntity.EntityApi = factory(root.EviratecEntity.ApiClient, root.EviratecEntity.InlineResponse2001, root.EviratecEntity.Model2);
   }
 }(this, function(ApiClient, InlineResponse2001, Model2) {
   'use strict';

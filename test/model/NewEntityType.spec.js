@@ -20,15 +20,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.EviratecEntityApi);
+    factory(root.expect, root.EviratecEntity);
   }
-}(this, function(expect, EviratecEntityApi) {
+}(this, function(expect, EviratecEntity) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new EviratecEntityApi.NewEntityType();
+    instance = new EviratecEntity.NewEntityType();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,37 +50,37 @@
   describe('NewEntityType', function() {
     it('should create an instance of NewEntityType', function() {
       // uncomment below and update the code to test NewEntityType
-      //var instane = new EviratecEntityApi.NewEntityType();
-      //expect(instance).to.be.a(EviratecEntityApi.NewEntityType);
+      //var instane = new EviratecEntity.NewEntityType();
+      //expect(instance).to.be.a(EviratecEntity.NewEntityType);
     });
 
     it('should have the property parentID (base name: "ParentID")', function() {
       // uncomment below and update the code to test the property parentID
-      //var instane = new EviratecEntityApi.NewEntityType();
+      //var instane = new EviratecEntity.NewEntityType();
       //expect(instance).to.be();
     });
 
     it('should have the property className (base name: "ClassName")', function() {
       // uncomment below and update the code to test the property className
-      //var instane = new EviratecEntityApi.NewEntityType();
+      //var instane = new EviratecEntity.NewEntityType();
       //expect(instance).to.be();
     });
 
     it('should have the property slug (base name: "Slug")', function() {
       // uncomment below and update the code to test the property slug
-      //var instane = new EviratecEntityApi.NewEntityType();
+      //var instane = new EviratecEntity.NewEntityType();
       //expect(instance).to.be();
     });
 
     it('should have the property label (base name: "Label")', function() {
       // uncomment below and update the code to test the property label
-      //var instane = new EviratecEntityApi.NewEntityType();
+      //var instane = new EviratecEntity.NewEntityType();
       //expect(instance).to.be();
     });
 
     it('should have the property attributes (base name: "Attributes")', function() {
       // uncomment below and update the code to test the property attributes
-      //var instane = new EviratecEntityApi.NewEntityType();
+      //var instane = new EviratecEntity.NewEntityType();
       //expect(instance).to.be();
     });
 

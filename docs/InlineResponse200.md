@@ -1,4 +1,4 @@
-# EviratecEntityApi.InlineResponse200
+# EviratecEntity.InlineResponse200
 
 ## Properties
 Name | Type | Description | Notes

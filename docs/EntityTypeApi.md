@@ -1,4 +1,4 @@
-# EviratecEntityApi.EntityTypeApi
+# EviratecEntity.EntityTypeApi
 
 All URIs are relative to *https://entity-api.preview.eviratec.software*
 
@@ -19,11 +19,11 @@ Creates a new EntityType
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityTypeApi();
+var apiInstance = new EviratecEntity.EntityTypeApi();
 
-var model = new EviratecEntityApi.Model(); // Model | The new **EntityType** to add
+var model = new EviratecEntity.Model(); // Model | The new **EntityType** to add
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -68,9 +68,9 @@ Retrieves an existing EntityType
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityTypeApi();
+var apiInstance = new EviratecEntity.EntityTypeApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -117,9 +117,9 @@ Retrieves a list of Types
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityTypeApi();
+var apiInstance = new EviratecEntity.EntityTypeApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 

@@ -1,4 +1,4 @@
-# EviratecEntityApi.TypeAttributeApi
+# EviratecEntity.TypeAttributeApi
 
 All URIs are relative to *https://entity-api.preview.eviratec.software*
 
@@ -19,11 +19,11 @@ Creates a new TypeAttribute
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.TypeAttributeApi();
+var apiInstance = new EviratecEntity.TypeAttributeApi();
 
-var model = new EviratecEntityApi.Model1(); // Model1 | The new **TypeAttribute** to add
+var model = new EviratecEntity.Model1(); // Model1 | The new **TypeAttribute** to add
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -71,9 +71,9 @@ Retrieves an existing TypeAttribute
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.TypeAttributeApi();
+var apiInstance = new EviratecEntity.TypeAttributeApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -123,9 +123,9 @@ No authorization required
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.TypeAttributeApi();
+var apiInstance = new EviratecEntity.TypeAttributeApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 

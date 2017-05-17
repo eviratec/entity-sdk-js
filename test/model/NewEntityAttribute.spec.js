@@ -20,15 +20,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.EviratecEntityApi);
+    factory(root.expect, root.EviratecEntity);
   }
-}(this, function(expect, EviratecEntityApi) {
+}(this, function(expect, EviratecEntity) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new EviratecEntityApi.NewEntityAttribute();
+    instance = new EviratecEntity.NewEntityAttribute();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('NewEntityAttribute', function() {
     it('should create an instance of NewEntityAttribute', function() {
       // uncomment below and update the code to test NewEntityAttribute
-      //var instane = new EviratecEntityApi.NewEntityAttribute();
-      //expect(instance).to.be.a(EviratecEntityApi.NewEntityAttribute);
+      //var instane = new EviratecEntity.NewEntityAttribute();
+      //expect(instance).to.be.a(EviratecEntity.NewEntityAttribute);
     });
 
     it('should have the property attributeKey (base name: "AttributeKey")', function() {
       // uncomment below and update the code to test the property attributeKey
-      //var instane = new EviratecEntityApi.NewEntityAttribute();
+      //var instane = new EviratecEntity.NewEntityAttribute();
       //expect(instance).to.be();
     });
 
     it('should have the property attributeValue (base name: "AttributeValue")', function() {
       // uncomment below and update the code to test the property attributeValue
-      //var instane = new EviratecEntityApi.NewEntityAttribute();
+      //var instane = new EviratecEntity.NewEntityAttribute();
       //expect(instance).to.be();
     });
 

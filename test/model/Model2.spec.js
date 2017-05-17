@@ -20,15 +20,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.EviratecEntityApi);
+    factory(root.expect, root.EviratecEntity);
   }
-}(this, function(expect, EviratecEntityApi) {
+}(this, function(expect, EviratecEntity) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new EviratecEntityApi.Model2();
+    instance = new EviratecEntity.Model2();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('Model2', function() {
     it('should create an instance of Model2', function() {
       // uncomment below and update the code to test Model2
-      //var instane = new EviratecEntityApi.Model2();
-      //expect(instance).to.be.a(EviratecEntityApi.Model2);
+      //var instane = new EviratecEntity.Model2();
+      //expect(instance).to.be.a(EviratecEntity.Model2);
     });
 
     it('should have the property typeID (base name: "TypeID")', function() {
       // uncomment below and update the code to test the property typeID
-      //var instane = new EviratecEntityApi.Model2();
+      //var instane = new EviratecEntity.Model2();
       //expect(instance).to.be();
     });
 
     it('should have the property attributes (base name: "Attributes")', function() {
       // uncomment below and update the code to test the property attributes
-      //var instane = new EviratecEntityApi.Model2();
+      //var instane = new EviratecEntity.Model2();
       //expect(instance).to.be();
     });
 

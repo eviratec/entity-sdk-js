@@ -1,4 +1,4 @@
-# EviratecEntityApi.EntityType
+# EviratecEntity.EntityType
 
 ## Properties
 Name | Type | Description | Notes

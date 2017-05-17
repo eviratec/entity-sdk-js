@@ -1,4 +1,4 @@
-# EviratecEntityApi.UUserIDTypeListAttributes
+# EviratecEntity.UUserIDTypeListAttributes
 
 ## Properties
 Name | Type | Description | Notes

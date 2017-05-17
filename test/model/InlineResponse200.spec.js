@@ -20,15 +20,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.EviratecEntityApi);
+    factory(root.expect, root.EviratecEntity);
   }
-}(this, function(expect, EviratecEntityApi) {
+}(this, function(expect, EviratecEntity) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new EviratecEntityApi.InlineResponse200();
+    instance = new EviratecEntity.InlineResponse200();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,67 +50,67 @@
   describe('InlineResponse200', function() {
     it('should create an instance of InlineResponse200', function() {
       // uncomment below and update the code to test InlineResponse200
-      //var instane = new EviratecEntityApi.InlineResponse200();
-      //expect(instance).to.be.a(EviratecEntityApi.InlineResponse200);
+      //var instane = new EviratecEntity.InlineResponse200();
+      //expect(instance).to.be.a(EviratecEntity.InlineResponse200);
     });
 
     it('should have the property ID (base name: "ID")', function() {
       // uncomment below and update the code to test the property ID
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property userID (base name: "UserID")', function() {
       // uncomment below and update the code to test the property userID
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property parentID (base name: "ParentID")', function() {
       // uncomment below and update the code to test the property parentID
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property className (base name: "ClassName")', function() {
       // uncomment below and update the code to test the property className
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property slug (base name: "Slug")', function() {
       // uncomment below and update the code to test the property slug
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property label (base name: "Label")', function() {
       // uncomment below and update the code to test the property label
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property created (base name: "Created")', function() {
       // uncomment below and update the code to test the property created
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property modified (base name: "Modified")', function() {
       // uncomment below and update the code to test the property modified
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property deleted (base name: "Deleted")', function() {
       // uncomment below and update the code to test the property deleted
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 
     it('should have the property attributes (base name: "Attributes")', function() {
       // uncomment below and update the code to test the property attributes
-      //var instane = new EviratecEntityApi.InlineResponse200();
+      //var instane = new EviratecEntity.InlineResponse200();
       //expect(instance).to.be();
     });
 

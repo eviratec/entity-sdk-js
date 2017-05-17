@@ -1,4 +1,4 @@
-# EviratecEntityApi.EntityApi
+# EviratecEntity.EntityApi
 
 All URIs are relative to *https://entity-api.preview.eviratec.software*
 
@@ -20,11 +20,11 @@ Creates a new Entity
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityApi();
+var apiInstance = new EviratecEntity.EntityApi();
 
-var model = new EviratecEntityApi.Model2(); // Model2 | The new **Entity** to add
+var model = new EviratecEntity.Model2(); // Model2 | The new **Entity** to add
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -72,9 +72,9 @@ Deletes an existing Entity
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityApi();
+var apiInstance = new EviratecEntity.EntityApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -124,9 +124,9 @@ Retrieves an existing Entity
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityApi();
+var apiInstance = new EviratecEntity.EntityApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
@@ -176,9 +176,9 @@ Retrieves a list of Entities
 
 ### Example
 ```javascript
-var EviratecEntityApi = require('entity-sdk');
+var EviratecEntity = require('entity-sdk');
 
-var apiInstance = new EviratecEntityApi.EntityApi();
+var apiInstance = new EviratecEntity.EntityApi();
 
 var userID = 3.4; // Number | The ID of the user who owns the resource
 
