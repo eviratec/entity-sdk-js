@@ -1,7 +1,21 @@
 language: node_js
 node_js:
+  - "7"
   - "6"
   - "6.1"
   - "5"
   - "5.11"
 
+before_script:
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - npm install -g grunt-cli
+  - ./nodeserver.sh > /dev/null &
+
+script:
+  - npm test
+
+sudo: false
+
+git:
+  depth: 10
